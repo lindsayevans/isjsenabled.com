@@ -17,12 +17,6 @@ h1 {
 
 h2 {
 	font-size: 12em;
-	color: #f90;
-	text-shadow: 0 0 2em #f90;
-}
-
-
-.no {
 	color: #c00;
 	text-shadow: 0 0 2em #c00;
 }
