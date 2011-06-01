@@ -17,5 +17,5 @@
 		%script{:src => "/js/jquery-jsenabled.js"}
 		%script
 			var js_enabled = $.jsEnabled();
-			$('h2').text(js_enabled ? 'Yes' : 'No').toggleClass('yes', $.jsEnabled());
+			$('h2').text(js_enabled ? 'Yes' : 'No').toggleClass('yes', js_enabled).toggleClass('no', !js_enabled);
 
