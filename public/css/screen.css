@@ -1,0 +1,32 @@
+body {
+	margin: 12em;
+	font: 62.5%/1.3 'Helvetica Neue','Arial',sans-serif;
+	background: #fff;
+	color: #666;
+	text-align: center;
+}
+
+h1 {
+	position: absolute;
+	top: -999em;
+	left: -999em;
+	width: 1em;
+	height: 1em;
+	overflow: hidden;
+}
+
+h2 {
+	font-size: 12em;
+	color: #c00;
+	text-shadow: 0 0 2em #c00;
+}
+
+h2.yes {
+	color: #0c0;
+	text-shadow: 0 0 2em #0c0;
+}
+
+footer {
+	display: block;
+}
+
